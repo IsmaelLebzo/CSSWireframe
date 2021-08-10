@@ -1,0 +1,60 @@
+*{
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header nav  {
+    background: rgb(70, 69, 69);
+    width: 100%;
+	}
+header nav ul li {
+    vertical-align: middle;
+    display: inline-block;
+    width: 10%;
+}
+header nav ul li a{
+    color: lightgray;
+}
+
+#top{
+    margin: 1%;
+}
+#mid {
+    margin: 1%;
+}
+#mid img:nth-child(2) {
+   padding-right: 30px;
+   padding-left: 30px;
+}
+#bot article{
+    display: inline-block;
+    width: 482px;
+    height: 350px;
+}
+#bot article h2{
+    font-size: 25px;
+    text-align: left;
+}
+#bot article p{
+    text-align: left;
+}
+
+#bot button{
+    color: white;
+    background-color: black;
+    border: none;
+    line-height: 30px;
+    width: 100px;
+    height: 9%;
+    margin-top: 4.4%;
+}
+#bot button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+footer{
+    background-color: gray;
+    margin-top: 10px;
+    height: 50px;
+    clear: both;
+}
