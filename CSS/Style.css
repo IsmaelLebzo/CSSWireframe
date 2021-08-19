@@ -1,55 +1,78 @@
 *{
-    text-align: center;
     text-decoration: none;
     box-sizing: border-box;
 }
 header nav  {
     background: rgb(70, 69, 69);
     width: 100%;
+    text-align: center;
+
 	}
 header nav ul li {
-    vertical-align: middle;
     display: inline-block;
-    width: 10%;
+    width: 165px;
+    text-align: center;
+    height: 70px;
+    vertical-align: middle;
+    margin: 15px;
+    line-height: 70px;
 }
 header nav ul li a{
     color: lightgray;
 }
 
 #top{
-    margin: 1%;
-}
+    text-align: center;
+    margin: 20px 0px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;}
 #mid {
-    margin: 1%;
-}
+    text-align: center;
+    margin: 20px 0px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;}
 #mid img:nth-child(2) {
-   padding-right: 30px;
-   padding-left: 30px;
+    padding: 0px 25px;
+
+}
+#bot{
+    text-align: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
 #bot article{
-    display: inline-block;
-    width: 482px;
-    height: 350px;
+    width: 50%;
+    height: 400px;
 }
 #bot article h2{
     font-size: 25px;
     text-align: left;
+    padding-left: 10px;
+
 }
 #bot article p{
     text-align: left;
+    padding-left: 10px;
+    font-size: 18px;
 }
 
 #bot button{
-    color: white;
     background-color: black;
+    color: white;
     border: none;
     line-height: 30px;
-    width: 100px;
-    height: 9%;
+    width: 120px;
+    height: 10%;
     margin-top: 4.4%;
+    float: left;
 }
 #bot button:hover{
-    background-color: green;
+    background-color: #c9c9c9;
+    color: black;
     cursor: pointer;
 }
 footer{
